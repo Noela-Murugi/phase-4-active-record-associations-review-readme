@@ -12,6 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2021_05_06_151732) do
 
+  
   create_table "authors", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
